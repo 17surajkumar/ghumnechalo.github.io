@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap");
+/* It is used to define a variable with a value which can be used further */
+
+:root {
+  --main-bg-color: grey;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--main-bg-color);
+}
+
+header nav {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  height: 60px;
+  padding: 0 15px;
+}
+
+nav ul {
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 21px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: "Lato", sans-serif;
+}
+
+nav ul li a:hover {
+  color: white;
+  font-style: bold;
+  font-size: 17px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  padding: 0 120px;
+}
+
+.search input {
+  width: 400px;
+  height: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.search button {
+  margin: 0 30px;
+  padding: 2px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.container {
+  min-height: calc(100vh - 70px - 10vh);
+}
+
+.slider {
+  width: 100%;
+  height: 25vh;
+  background-image: url(Resources/bg_imagelogo.jpg);
+  background-size: cover;
+  background-position: center;
+  font-size: 100px;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  margin: 23px auto -75px auto;
+
+  text-align: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.front-big-image {
+  display: flex;
+  justify-content: center;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  margin: 25px 120px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+}
+.heading-1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 70px;
+  text-decoration: underline;
+}
+
+.row-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cities {
+  width: 35vw;
+  height: 30vh;
+  font-size: 42px;
+  color: white;
+  padding: 5px;
+  margin: 80px 50px 15px 50px;
+  font-family: "Protest Riot", sans-serif;
+}
+
+.cities:hover {
+  width: 36vw;
+  height: 32vh;
+  font-size: 60px;
+  color: white;
+  padding: 5px;
+  margin: 75px 45px 15px 45px;
+  font-family: "Protest Riot", sans-serif;
+}
+
+.city1 {
+  background-image: url("https://images.herzindagi.info/image/2022/Oct/places-to-visit-in-pune.jpg");
+  background-size: cover;
+  filter: drop-shadow(10px 10px 5px rgb(106, 76, 76));
+}
+
+.city2 {
+  background-image: url("https://ihplb.b-cdn.net/wp-content/uploads/2021/01/Rumi_Darwaja-lucknow.jpg");
+  background-size: cover;
+  filter: drop-shadow(10px 10px 5px rgb(147, 218, 233));
+}
+
+.city3 {
+  background-image: url("https://media2.thrillophilia.com/images/photos/000/041/109/original/1584271952_shutterstock_749994316.jpg?gravity=center&width=1280&height=642&crop=fill&quality=auto&fetch_format=auto&flags=strip_profile&format=jpg&sign_url=true");
+  background-size: cover;
+  filter: drop-shadow(10px 10px 5px rgb(124, 162, 218));
+}
+
+.city4 {
+  background-image: url("https://www.holidify.com/images/bgImages/DELHI.jpg");
+  background-size: cover;
+  filter: drop-shadow(10px 10px 5px rgb(173, 116, 197));
+}
+
+.city5 {
+  background-image: url("https://www.hikenavigator.com/wp-content/uploads/2022/03/Tourist-Places-Of-Jaipur.jpg");
+  background-size: cover;
+  filter: drop-shadow(10px 10px 5px rgb(150, 223, 231));
+}
+
+.city6 {
+  background-image: url("https://www.tourmyindia.com/blog//wp-content/uploads/2022/05/Best-Places-to-Visit-in-Agra-UP.jpg");
+  background-size: cover;
+  filter: drop-shadow(10px 10px 5px rgb(236, 129, 80));
+}
+.city-intro {
+  width: 35vw;
+  height: 30vh;
+  font-size: 17px;
+  color: black;
+  margin: 25px 50px;
+  font-family: "Rubik", sans-serif;
+}
+
+footer {
+  height: 10vh;
+  background-color: var(--main-bg-color);
+  color: aliceblue;
+  font-family: "Lato", sans-serif;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact section</title>
+    <link rel="stylesheet" href="utilities.css">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap");
+      /* It is used to define a variable with a value which can be used further */
+
+      :root {
+        --main-bg-color: grey;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: var(--main-bg-color);
+      }
+
+      header nav {
+        display: flex;
+      }
+
+      .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .logo img {
+        height: 60px;
+        padding: 0 15px;
+      }
+
+      nav ul {
+        height: 70px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        padding: 0 21px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: aliceblue;
+        font-family: "Lato", sans-serif;
+      }
+
+      nav ul li a:hover {
+        color: white;
+        font-style: bold;
+        font-size: 17px;
+      }
+
+      .search {
+        display: flex;
+        align-items: center;
+        padding: 0 120px;
+      }
+
+      .search input {
+        width: 400px;
+        height: 15px;
+        padding: 5px;
+        border-radius: 5px;
+      }
+
+      .search button {
+        margin: 0 30px;
+        padding: 2px;
+        border-radius: 10px;
+        font-size: 13px;
+      }
+
+      .container {
+        min-height: calc(100vh - 70px - 10vh);
+      }
+
+      .main-heading{
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        font-family: "Oswald", sans-serif;
+        text-decoration: underline;
+        margin: 0px 20px;
+        letter-spacing: 0.14em;
+      }
+
+      footer {
+        height: 10vh;
+        background-color: var(--main-bg-color);
+        color: aliceblue;
+        font-family: "Lato", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="Resources/Ghumne.png" alt="logo" />
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="search">
+          <input type="text" placeholder="Search Your City" />
+          <button class="search_btn" type="button">Search</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="main-heading">
+                Contact
+            </div>
+        </div>
+    </main>
+
+    <footer class="flex-all-center">
+      <p class="text-center">Copyright &copy; GhumneChalo</p>
+    </footer>
+  </body>
+</html>
